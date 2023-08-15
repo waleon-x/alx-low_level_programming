@@ -8,8 +8,12 @@ int main(void)
 {
 	int w;
 
-	for (w = 0; w < 10; w++)
-		printf("%d", w);
+	w = 0;
+	while
+		(w < 10) {
+			putchar(w + '0');
+			w++;
+		}
 	putchar('\n');
 	return (0);
 }
