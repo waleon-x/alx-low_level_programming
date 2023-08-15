@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: 0 (Advance)
+ * Return: Always 0 (Advance)
  */
 
 int main(void)
 {
-	char w
-	w = 'a';
+	char c;
+	c = 'a';
 	while
-		(w <= 'z') {
-		putchar(w);
-		c++;
+		(c <= 'z') {
+			putchar(c);
+			c++;
 		}
 	putchar('\n');
 	return (0);
