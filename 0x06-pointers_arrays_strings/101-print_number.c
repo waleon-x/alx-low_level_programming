@@ -2,7 +2,7 @@
 
 /**
  * print_number - print numbers chars
- * @n: integer params
+ * @n: integer
  * Return: 0
  */
 
@@ -10,12 +10,12 @@ void print_number(int n)
 {
 	unsigned int u1;
 
-	u1 = u;
+	u1 = n;
 
-	if (u < 0)
+	if (n < 0)
 	{
 		_putchar('-');
-		u1 = -u;
+		u1 = -n;
 	}
 
 	if (u1 / 10 != 0)
