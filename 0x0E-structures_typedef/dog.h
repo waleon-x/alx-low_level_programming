@@ -7,6 +7,7 @@
 	 * @name: First input
 	 * @age: Second input
 	 * @owner: Third input
+	 * Description: Longer description
 	 */
 	struct dog
 	{
